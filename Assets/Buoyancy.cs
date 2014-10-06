@@ -19,7 +19,7 @@ public class Buoyancy : MonoBehaviour
 	public int voxelsLimit = 16;
 	
 	private const float DAMPFER = 0.1f;
-	private const float WATER_DENSITY = 2000;
+	private const float WATER_DENSITY = 1000;
 	
 	private float voxelHalfHeight;
 	private Vector3 localArchimedesForce;
